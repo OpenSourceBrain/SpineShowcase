@@ -60,7 +60,7 @@ def create_object(name, color,x=0,y=0,z=0):
     morphology = Morphology(id='mm')  
     obj.morphology = morphology
     
-    pop = Population(id="Pop_%s"%name, component=obj.id, type="populationList",size=1)
+    pop = Population(id="Pop_%s"%name, component=obj.id, type="populationList",size=0)
     net.populations.append(pop)
     populations[name]=pop
     pop.properties.append(Property(tag="color", value=color))
