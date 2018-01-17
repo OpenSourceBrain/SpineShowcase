@@ -103,8 +103,12 @@ def add_segment(obj,p0,p1,name=None):
 
 
 cell1 = create_object('OneSeg','0 .4 0',x=0,y=0,z=0)
+cell2 = create_object('TwoSeg','0 .4 0',x=0,y=100,z=0)
 
 add_segment(cell1,(0,0,0,10),(20,0,0,10),name='soma') 
+
+add_segment(cell2,(0,0,0,10),(20,0,0,10),name='soma') 
+add_segment(cell2,(20,0,0,5),(40,0,0,5),name='soma') 
 
 '''
 dend_seg_num = 10
