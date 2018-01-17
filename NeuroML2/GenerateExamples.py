@@ -106,7 +106,7 @@ cell1 = create_object('BallAndStick','0 .4 0',x=50,y=0,z=0)
 
 add_segment(cell1,(0,0,0,20),(0,0,0,20),name='soma') 
 
-dend_seg_num = 20
+dend_seg_num = 10
 seg_length = 10
 seg_diam = 2
 
@@ -115,6 +115,8 @@ for i in range(dend_seg_num):
 
 
 add_instance(cell1.id, 100,0,0)
+add_instance(cell1.id, -10,100,0)
+add_instance(cell1.id, 10,0,100)
 
 nml_file = '%s.net.nml'%net.id
 writers.NeuroMLWriter.write(nml_doc, nml_file)
