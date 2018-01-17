@@ -27,7 +27,7 @@ import math
 
 
 
-nml_doc = NeuroMLDocument(id="Example1")
+nml_doc = NeuroMLDocument(id="Example2")
 
 nml_doc.notes = "Demo of cell with spines"
 
@@ -102,21 +102,23 @@ def add_segment(obj,p0,p1,name=None):
     return segment
 
 
-cell1 = create_object('BallAndStick','0 .4 0',x=50,y=0,z=0)
+cell1 = create_object('OneSeg','0 .4 0',x=0,y=0,z=0)
 
-add_segment(cell1,(0,0,0,20),(0,0,0,20),name='soma') 
+add_segment(cell1,(0,0,0,10),(20,0,0,10),name='soma') 
 
+'''
 dend_seg_num = 10
 seg_length = 10
 seg_diam = 2
 
 for i in range(dend_seg_num):
-    add_segment(cell1,(0,seg_length*i,0,seg_diam),(0,seg_length*(i+1),0,seg_diam),name='dend_%s'%i) 
+    add_segment(cell1,(0,seg_length*i,0,seg_diam),(0,seg_length*(i+1),0,seg_diam),name='dend_%s'%i) '''
 
 
 add_instance(cell1.id, 100,0,0)
+'''
 add_instance(cell1.id, -10,100,0)
-add_instance(cell1.id, 10,0,100)
+add_instance(cell1.id, 10,0,100)'''
 
 nml_file = '%s.net.nml'%net.id
 writers.NeuroMLWriter.write(nml_doc, nml_file)
