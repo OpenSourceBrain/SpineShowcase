@@ -1,0 +1,146 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="Example1">
+    <notes>Demo of cell with spines</notes>
+    <cell id="BallAndStick">
+        <morphology id="mm">
+            <segment id="0" name="soma">
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="20"/>
+                <distal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="20"/>
+            </segment>
+            <segment id="1" name="dend_0">
+                <parent segment="0" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.000000e+01" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="2" name="dend_1">
+                <parent segment="1" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.000000e+01" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="2.000000e+01" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="3" name="dend_2">
+                <parent segment="2" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="2.000000e+01" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="3.000000e+01" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="4" name="dend_3">
+                <parent segment="3" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="3.000000e+01" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="4.000000e+01" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="5" name="dend_4">
+                <parent segment="4" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="4.000000e+01" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="5.000000e+01" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="6" name="dend_5">
+                <parent segment="5" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="5.000000e+01" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="6.000000e+01" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="7" name="dend_6">
+                <parent segment="6" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="6.000000e+01" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="7.000000e+01" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="8" name="dend_7">
+                <parent segment="7" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="7.000000e+01" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="8.000000e+01" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="9" name="dend_8">
+                <parent segment="8" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="8.000000e+01" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="9.000000e+01" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="10" name="dend_9">
+                <parent segment="9" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="9.000000e+01" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.000000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="11" name="dend_10">
+                <parent segment="10" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.000000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.100000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="12" name="dend_11">
+                <parent segment="11" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.100000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.200000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="13" name="dend_12">
+                <parent segment="12" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.200000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.300000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="14" name="dend_13">
+                <parent segment="13" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.300000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.400000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="15" name="dend_14">
+                <parent segment="14" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.400000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.500000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="16" name="dend_15">
+                <parent segment="15" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.500000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.600000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="17" name="dend_16">
+                <parent segment="16" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.600000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.700000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="18" name="dend_17">
+                <parent segment="17" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.700000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.800000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="19" name="dend_18">
+                <parent segment="18" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.800000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="1.900000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segment id="20" name="dend_19">
+                <parent segment="19" fractionAlong="1"/>
+                <proximal x="0.000000e+00" y="1.900000e+02" z="0.000000e+00" diameter="2"/>
+                <distal x="0.000000e+00" y="2.000000e+02" z="0.000000e+00" diameter="2"/>
+            </segment>
+            <segmentGroup id="all">
+                <member segment="0"/>
+                <member segment="1"/>
+                <member segment="2"/>
+                <member segment="3"/>
+                <member segment="4"/>
+                <member segment="5"/>
+                <member segment="6"/>
+                <member segment="7"/>
+                <member segment="8"/>
+                <member segment="9"/>
+                <member segment="10"/>
+                <member segment="11"/>
+                <member segment="12"/>
+                <member segment="13"/>
+                <member segment="14"/>
+                <member segment="15"/>
+                <member segment="16"/>
+                <member segment="17"/>
+                <member segment="18"/>
+                <member segment="19"/>
+                <member segment="20"/>
+            </segmentGroup>
+        </morphology>
+    </cell>
+    <network id="Example1">
+        <notes>Demo of cell with spines</notes>
+        <population id="Pop_BallAndStick" component="BallAndStick" size="3" type="populationList">
+            <property tag="color" value="0 .4 0"/>
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+            <instance id="1">
+                <location x="50." y="0." z="0."/>
+            </instance>
+        </population>
+    </network>
+</neuroml>
